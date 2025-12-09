@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/your-video-id-here
 
 > **Note:** Upload the video `docs/Buddy_ChristmasAssistant.mov` to your GitHub repository, and GitHub will automatically generate a video player. Alternatively, you can host it on YouTube or another platform and embed the link.
 
-**Demo Video:** [docs/Buddy_ChristmasAssistant.mov](docs/Buddy_ChristmasAssistant.mov)
+**Demo Video:** [Buddy_ChristmasAssistant.mov](https://drive.google.com/file/d/1ozxHNYF6SlJlT6-1tLBnFHvV71LOOKBz/view?usp=drive_link)
 
 ## Features
 
