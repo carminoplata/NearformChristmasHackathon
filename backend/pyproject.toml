@@ -1,0 +1,36 @@
+[project]
+name = "elfagent"
+version = "0.1.0"
+description = "Elf Agent looks for the best deals for Christmas gifts across multiple marketplaces"
+authors = [
+    {name = "Carmine Sacco", email = "fortekarma@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.13.2,<4.0.0",
+    "python-dotenv>=1.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "websockets>=14.0",
+    "google-adk==1.18.0",
+    "litellm==1.79.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.0.1",
+    "pytest-asyncio>=1.3.0",
+    "httpx>=0.27.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "app", "tests"]
